@@ -1,6 +1,6 @@
 # RSScratchCard
 Swift 实现刮奖功能，刮刮刮，100%有奖~手动滑稽
----
+
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Swift-orange.svg) 
 ![](https://img.shields.io/badge/download-2.3MB-brightgreen.svg)

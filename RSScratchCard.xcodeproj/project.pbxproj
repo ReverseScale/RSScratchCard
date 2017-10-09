@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3416887B1F8B27EB0001D8D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416887A1F8B27EB0001D8D3 /* AppDelegate.swift */; };
+		3416887D1F8B27EB0001D8D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416887C1F8B27EB0001D8D3 /* ViewController.swift */; };
+		341688801F8B27EB0001D8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3416887E1F8B27EB0001D8D3 /* Main.storyboard */; };
+		341688821F8B27EB0001D8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341688811F8B27EB0001D8D3 /* Assets.xcassets */; };
+		341688851F8B27EB0001D8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */; };
+		341688901F8B27EB0001D8D3 /* RSScratchCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416888F1F8B27EB0001D8D3 /* RSScratchCardTests.swift */; };
+		3416889B1F8B27EB0001D8D3 /* RSScratchCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416889A1F8B27EB0001D8D3 /* RSScratchCardUITests.swift */; };
+		341688B11F8B29A30001D8D3 /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341688AF1F8B28EB0001D8D3 /* ScratchCard.swift */; };
+		341688B21F8B29A70001D8D3 /* ScratchMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341688B01F8B28EC0001D8D3 /* ScratchMask.swift */; };
+		341688B31F8B2A620001D8D3 /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 341688A81F8B28A90001D8D3 /* coupon.png */; };
+		341688B41F8B2A650001D8D3 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 341688A91F8B28A90001D8D3 /* mask.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3416888C1F8B27EB0001D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3416886F1F8B27EA0001D8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341688761F8B27EA0001D8D3;
+			remoteInfo = RSScratchCard;
+		};
+		341688971F8B27EB0001D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3416886F1F8B27EA0001D8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341688761F8B27EA0001D8D3;
+			remoteInfo = RSScratchCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341688771F8B27EB0001D8D3 /* RSScratchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSScratchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3416887A1F8B27EB0001D8D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3416887C1F8B27EB0001D8D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3416887F1F8B27EB0001D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341688811F8B27EB0001D8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341688841F8B27EB0001D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341688861F8B27EB0001D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3416888B1F8B27EB0001D8D3 /* RSScratchCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSScratchCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3416888F1F8B27EB0001D8D3 /* RSScratchCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSScratchCardTests.swift; sourceTree = "<group>"; };
+		341688911F8B27EB0001D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341688961F8B27EB0001D8D3 /* RSScratchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSScratchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3416889A1F8B27EB0001D8D3 /* RSScratchCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSScratchCardUITests.swift; sourceTree = "<group>"; };
+		3416889C1F8B27EB0001D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341688A81F8B28A90001D8D3 /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
+		341688A91F8B28A90001D8D3 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		341688AF1F8B28EB0001D8D3 /* ScratchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
+		341688B01F8B28EC0001D8D3 /* ScratchMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchMask.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341688741F8B27EA0001D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688881F8B27EB0001D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688931F8B27EB0001D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3416886E1F8B27EA0001D8D3 = {
+			isa = PBXGroup;
+			children = (
+				341688791F8B27EB0001D8D3 /* RSScratchCard */,
+				3416888E1F8B27EB0001D8D3 /* RSScratchCardTests */,
+				341688991F8B27EB0001D8D3 /* RSScratchCardUITests */,
+				341688781F8B27EB0001D8D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341688781F8B27EB0001D8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341688771F8B27EB0001D8D3 /* RSScratchCard.app */,
+				3416888B1F8B27EB0001D8D3 /* RSScratchCardTests.xctest */,
+				341688961F8B27EB0001D8D3 /* RSScratchCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341688791F8B27EB0001D8D3 /* RSScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				341688AE1F8B28E30001D8D3 /* ScratchCardTools */,
+				3416887A1F8B27EB0001D8D3 /* AppDelegate.swift */,
+				3416887C1F8B27EB0001D8D3 /* ViewController.swift */,
+				341688A81F8B28A90001D8D3 /* coupon.png */,
+				341688A91F8B28A90001D8D3 /* mask.png */,
+				3416887E1F8B27EB0001D8D3 /* Main.storyboard */,
+				341688811F8B27EB0001D8D3 /* Assets.xcassets */,
+				341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */,
+				341688861F8B27EB0001D8D3 /* Info.plist */,
+			);
+			path = RSScratchCard;
+			sourceTree = "<group>";
+		};
+		3416888E1F8B27EB0001D8D3 /* RSScratchCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				3416888F1F8B27EB0001D8D3 /* RSScratchCardTests.swift */,
+				341688911F8B27EB0001D8D3 /* Info.plist */,
+			);
+			path = RSScratchCardTests;
+			sourceTree = "<group>";
+		};
+		341688991F8B27EB0001D8D3 /* RSScratchCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3416889A1F8B27EB0001D8D3 /* RSScratchCardUITests.swift */,
+				3416889C1F8B27EB0001D8D3 /* Info.plist */,
+			);
+			path = RSScratchCardUITests;
+			sourceTree = "<group>";
+		};
+		341688AE1F8B28E30001D8D3 /* ScratchCardTools */ = {
+			isa = PBXGroup;
+			children = (
+				341688AF1F8B28EB0001D8D3 /* ScratchCard.swift */,
+				341688B01F8B28EC0001D8D3 /* ScratchMask.swift */,
+			);
+			path = ScratchCardTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341688761F8B27EA0001D8D3 /* RSScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3416889F1F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCard" */;
+			buildPhases = (
+				341688731F8B27EA0001D8D3 /* Sources */,
+				341688741F8B27EA0001D8D3 /* Frameworks */,
+				341688751F8B27EA0001D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSScratchCard;
+			productName = RSScratchCard;
+			productReference = 341688771F8B27EB0001D8D3 /* RSScratchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3416888A1F8B27EB0001D8D3 /* RSScratchCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341688A21F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCardTests" */;
+			buildPhases = (
+				341688871F8B27EB0001D8D3 /* Sources */,
+				341688881F8B27EB0001D8D3 /* Frameworks */,
+				341688891F8B27EB0001D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3416888D1F8B27EB0001D8D3 /* PBXTargetDependency */,
+			);
+			name = RSScratchCardTests;
+			productName = RSScratchCardTests;
+			productReference = 3416888B1F8B27EB0001D8D3 /* RSScratchCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341688951F8B27EB0001D8D3 /* RSScratchCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341688A51F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCardUITests" */;
+			buildPhases = (
+				341688921F8B27EB0001D8D3 /* Sources */,
+				341688931F8B27EB0001D8D3 /* Frameworks */,
+				341688941F8B27EB0001D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341688981F8B27EB0001D8D3 /* PBXTargetDependency */,
+			);
+			name = RSScratchCardUITests;
+			productName = RSScratchCardUITests;
+			productReference = 341688961F8B27EB0001D8D3 /* RSScratchCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3416886F1F8B27EA0001D8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = WhatsXie;
+				TargetAttributes = {
+					341688761F8B27EA0001D8D3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3416888A1F8B27EB0001D8D3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341688761F8B27EA0001D8D3;
+					};
+					341688951F8B27EB0001D8D3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341688761F8B27EA0001D8D3;
+					};
+				};
+			};
+			buildConfigurationList = 341688721F8B27EA0001D8D3 /* Build configuration list for PBXProject "RSScratchCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3416886E1F8B27EA0001D8D3;
+			productRefGroup = 341688781F8B27EB0001D8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341688761F8B27EA0001D8D3 /* RSScratchCard */,
+				3416888A1F8B27EB0001D8D3 /* RSScratchCardTests */,
+				341688951F8B27EB0001D8D3 /* RSScratchCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341688751F8B27EA0001D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341688851F8B27EB0001D8D3 /* LaunchScreen.storyboard in Resources */,
+				341688B41F8B2A650001D8D3 /* mask.png in Resources */,
+				341688B31F8B2A620001D8D3 /* coupon.png in Resources */,
+				341688821F8B27EB0001D8D3 /* Assets.xcassets in Resources */,
+				341688801F8B27EB0001D8D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688891F8B27EB0001D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688941F8B27EB0001D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341688731F8B27EA0001D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341688B21F8B29A70001D8D3 /* ScratchMask.swift in Sources */,
+				341688B11F8B29A30001D8D3 /* ScratchCard.swift in Sources */,
+				3416887D1F8B27EB0001D8D3 /* ViewController.swift in Sources */,
+				3416887B1F8B27EB0001D8D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688871F8B27EB0001D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341688901F8B27EB0001D8D3 /* RSScratchCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341688921F8B27EB0001D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3416889B1F8B27EB0001D8D3 /* RSScratchCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3416888D1F8B27EB0001D8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341688761F8B27EA0001D8D3 /* RSScratchCard */;
+			targetProxy = 3416888C1F8B27EB0001D8D3 /* PBXContainerItemProxy */;
+		};
+		341688981F8B27EB0001D8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341688761F8B27EA0001D8D3 /* RSScratchCard */;
+			targetProxy = 341688971F8B27EB0001D8D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3416887E1F8B27EB0001D8D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3416887F1F8B27EB0001D8D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341688841F8B27EB0001D8D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3416889D1F8B27EB0001D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3416889E1F8B27EB0001D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341688A01F8B27EB0001D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSScratchCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		341688A11F8B27EB0001D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSScratchCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		341688A31F8B27EB0001D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSScratchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSScratchCard.app/RSScratchCard";
+			};
+			name = Debug;
+		};
+		341688A41F8B27EB0001D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSScratchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSScratchCard.app/RSScratchCard";
+			};
+			name = Release;
+		};
+		341688A61F8B27EB0001D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSScratchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSScratchCard;
+			};
+			name = Debug;
+		};
+		341688A71F8B27EB0001D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSScratchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSScratchCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341688721F8B27EA0001D8D3 /* Build configuration list for PBXProject "RSScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3416889D1F8B27EB0001D8D3 /* Debug */,
+				3416889E1F8B27EB0001D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3416889F1F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341688A01F8B27EB0001D8D3 /* Debug */,
+				341688A11F8B27EB0001D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341688A21F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341688A31F8B27EB0001D8D3 /* Debug */,
+				341688A41F8B27EB0001D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341688A51F8B27EB0001D8D3 /* Build configuration list for PBXNativeTarget "RSScratchCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341688A61F8B27EB0001D8D3 /* Debug */,
+				341688A71F8B27EB0001D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3416886F1F8B27EA0001D8D3 /* Project object */;
+}

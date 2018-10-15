@@ -11,13 +11,14 @@
 		3416887D1F8B27EB0001D8D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416887C1F8B27EB0001D8D3 /* ViewController.swift */; };
 		341688801F8B27EB0001D8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3416887E1F8B27EB0001D8D3 /* Main.storyboard */; };
 		341688821F8B27EB0001D8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341688811F8B27EB0001D8D3 /* Assets.xcassets */; };
-		341688851F8B27EB0001D8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */; };
 		341688901F8B27EB0001D8D3 /* RSScratchCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416888F1F8B27EB0001D8D3 /* RSScratchCardTests.swift */; };
 		3416889B1F8B27EB0001D8D3 /* RSScratchCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416889A1F8B27EB0001D8D3 /* RSScratchCardUITests.swift */; };
 		341688B11F8B29A30001D8D3 /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341688AF1F8B28EB0001D8D3 /* ScratchCard.swift */; };
 		341688B21F8B29A70001D8D3 /* ScratchMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341688B01F8B28EC0001D8D3 /* ScratchMask.swift */; };
 		341688B31F8B2A620001D8D3 /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 341688A81F8B28A90001D8D3 /* coupon.png */; };
 		341688B41F8B2A650001D8D3 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 341688A91F8B28A90001D8D3 /* mask.png */; };
+		52C93E72217414EE00F06102 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C93E70217414EE00F06102 /* Default.png */; };
+		52C93E73217414EE00F06102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C93E71217414EE00F06102 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		3416887C1F8B27EB0001D8D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3416887F1F8B27EB0001D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		341688811F8B27EB0001D8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		341688841F8B27EB0001D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		341688861F8B27EB0001D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3416888B1F8B27EB0001D8D3 /* RSScratchCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSScratchCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416888F1F8B27EB0001D8D3 /* RSScratchCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSScratchCardTests.swift; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		341688A91F8B28A90001D8D3 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 		341688AF1F8B28EB0001D8D3 /* ScratchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
 		341688B01F8B28EC0001D8D3 /* ScratchMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchMask.swift; sourceTree = "<group>"; };
+		52C93E70217414EE00F06102 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52C93E71217414EE00F06102 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,8 @@
 				341688A91F8B28A90001D8D3 /* mask.png */,
 				3416887E1F8B27EB0001D8D3 /* Main.storyboard */,
 				341688811F8B27EB0001D8D3 /* Assets.xcassets */,
-				341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */,
+				52C93E70217414EE00F06102 /* Default.png */,
+				52C93E71217414EE00F06102 /* LaunchScreen.storyboard */,
 				341688861F8B27EB0001D8D3 /* Info.plist */,
 			);
 			path = RSScratchCard;
@@ -252,11 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				341688851F8B27EB0001D8D3 /* LaunchScreen.storyboard in Resources */,
 				341688B41F8B2A650001D8D3 /* mask.png in Resources */,
 				341688B31F8B2A620001D8D3 /* coupon.png in Resources */,
 				341688821F8B27EB0001D8D3 /* Assets.xcassets in Resources */,
+				52C93E73217414EE00F06102 /* LaunchScreen.storyboard in Resources */,
 				341688801F8B27EB0001D8D3 /* Main.storyboard in Resources */,
+				52C93E72217414EE00F06102 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,14 +330,6 @@
 				3416887F1F8B27EB0001D8D3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		341688831F8B27EB0001D8D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				341688841F8B27EB0001D8D3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,9 +446,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCard;
@@ -466,9 +461,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCard;
@@ -484,6 +478,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardTests;
@@ -500,6 +495,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardTests;
@@ -515,6 +511,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardUITests;
@@ -530,6 +527,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSScratchCardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSScratchCardUITests;

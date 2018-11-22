@@ -10,7 +10,7 @@ Swift 实现刮奖功能，刮刮刮，100%有奖~手动滑稽
 
 | 名称 |1.列表页 |2.展示页 |3.结果页 |
 | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-9/90944896.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-9/54762888.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-9/77285280.jpg) |
+| 截图 | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/249402.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/86042415.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-22/16136045.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 刮奖前 | 刮奖后 |
 
 
